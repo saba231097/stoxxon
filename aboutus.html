@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #3498DB  ;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Stoxxon</h1>
+  <p>You are a step away from all your stock doubts.</p>
+  <p>Let's connect and find all possible solution to scale up your DREAM</p>
+</div>
+
+<section class="section-padding pb-0" id="about">
+  <div class="container mb-5 pb-lg-5">
+      <div class="row">
+          <div class="col-12">
+              <h2 class="mb-5 text-center" data-aos="fade-up">About Us</h2>
+          </div>
+
+          <div class="col-lg-6 col-12 mt-3 mb-lg-5">
+              <p class="me-4" data-aos="fade-up" data-aos-delay="300">"Money that isn't invested is money that is wasted" is our motto here at The Stoxxon. It doesn't matter when you start investing or how much you start off with - the important thing is to ensure that your money grows with you.&nbsp;<br>We have been handling high profile portfolios for over a decade, and we've seen a tenfold in returns when compared to a regular RD, FD, or even a mutual fund.</p>
+          </div>
+
+          <div class="col-lg-6 col-12 mt-lg-3 mb-lg-5">
+              <p data-aos="fade-up" data-aos-delay="500">A team of trained and seasoned professionals will operate your portfolio to guarantee the best possible growth and returns on your money. We do not take your money lightly, and more importantly, we do not take your time for granted. Here is a little known fact that we are extremely proud of - we have a 100% customer retention rate since the inception of The Stoxxon - that should tell you how important YOU are.</p>
+          </div>
+
+      </div>
+  </div>
+</body>
+</html>
